@@ -2,7 +2,7 @@
 
 Course materials for DCS 200
 
-**Instructor:** [Rob Hall](https://generalassemb.ly/instructors/rob-hall/1864)
+**Instructor:** Maureen Haining
 
 **TA's:** 
 * Elizabeth
