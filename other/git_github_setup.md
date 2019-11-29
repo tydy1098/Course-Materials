@@ -100,7 +100,14 @@ Create a simple text file:
 
 
 ### Exercise 2: Using GitHub to create a remote repo
- [Getting Started with GitHub](https://seankross.com/the-unix-workbench/git-and-github.html#github) 
+To get started, sign in to your GitHub acccount with the credentials you setup earlier
+
+__Note__ that you have a *local* git repository in your DCS210 folder; why is there not a repository named my_first_repo in your GitHub account?
+
+#### Follow the instructions [Getting Started with GitHub](https://seankross.com/the-unix-workbench/git-and-github.html#github) 
+
+
+#### Points to Ponder along the way
 * create repo
 	* public vs. private
 	* initialize with README
@@ -108,18 +115,25 @@ Create a simple text file:
 * GitHub suggestions
 	* Quick setup = clone
 	* the 'remote' = 'origin'
-* Check connections
-	* In terminal or gitBash, navigate to your DCS directory
-	* git remote
-	* git remote add origin https://github.com/yourusername/my-first-repo.git (adds a new remote named 'origin' to your local repo)
-	* git push -u origin master (initial setup of remote)
+
+__Getting Connected!__ - In terminal or gitBash, navigate to your DCS directory
+
+	git remote
+	git remote add origin https://github.com/yourusername/my-first-repo.git 
+	git push -u origin master 
 
 
 
-#### Tying them together
-If you have already created a repository in GitHub and wish to **push** the files in your local directory to the **remote**, you 
-may run these commands in terminal (for Mac) or gitBash (for Windows)
+#### Summary of basic commands used 
 
-* git remote add origin https://github.com/yourusername/my-first-repo.git
-* git push -u origin master
+| Command         | Notes |
+| --------------- | ------ |
+|git remote|  |
+|remote add origin url | url = address of your repo in GitHub; adds a new remote named 'origin' to your __local__ repo |
+|git push -u origin master | initial setup of remote; -u sets origin as the default remote repository|
 
+### Questions
+1. Look back at your web page for your repository on GitHub (you may need to refresh the page); do you see anything different?
+2. To what do the names origin and master refer?
+
+![This is an image](./images/createRepo.jpg)
