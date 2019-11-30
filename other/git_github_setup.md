@@ -1,3 +1,11 @@
+# Overview - concepts covered
+* git
+* GitHub
+* GitHub Classroom
+* Command Line Interface
+* Markdown??
+* IDE??
+
 # Git Configuration and Github Setup
 
 **IMPORTANT: We will be using Github Classroom for assignment submission. It is important this be setup correctly and that you are comfortable with the 
@@ -54,86 +62,74 @@ and click the big green “Sign up for GitHub” button.
 	**b. Generate a SSH key so you don't need to enter your pwd every time you interact with GitHub**
   1. First check to see if you have an SSH key. Complete [this page](https://help.github.com/en/github/authenticating-to-github/checking-for-existing-ssh-keys)
   2. Follow these instructions to ensure you can connect to GitHub from your computer
-  
-## Let's Connect!  
-Now that you have Git installed and configured and created a GitHub account, make sure you can pull and push 
-to GitHub from your computer. 
-**IMPORTANT** You will be cloning repositories down to your local computer. For good organization and accessiblity, create a top
-level directory on your laptop now. Call it DCS210 so that you will be able to easily locate your projects.
-    
-### Exercise 1: Create your first repo
-Assumed Knowledge: create a directory, edit a file, basic shell commands
-#### Create a directory
 
-Navigate to your DCS210 directory
+## Downloading and editing assignments from GitHub Classroom
+The steps for accepting and submitting a homework assignment will be clear after you have completed exercises 1 - 3 in the Lab
+for Session 1. The basic steps are as follows:
+* Accept the assignment
+* Clone the assignment repo
+* Create a pull request
 
-	cd /yourpathto/DCS210
-	mkdir my-first-repo
-Create a simple text file:
+### Detailed Steps
 
-	echo "Welcome to My First Repo" > readme.txt
-
-#### Using git to create a local repo [Getting Started with Git](https://seankross.com/the-unix-workbench/git-and-github.html#getting-started-with-git)  
-
-	git init
-	git status
-	git add 
-	git status
-	git commit -m  "this is my first commit"
-	git status
-	
-#### Summary of basic commands used 
-
-| Command         | Notes |
-| --------------- | ------ |
-|git init| start tracking files with git|
-|git add | staging|
-|git commit | aka 'logging your changes'; aka 'creating a milestone'|
-|git add -A = | track all of the files in our directory |
-|git help 'git command'| e.g., git help status; find out all you need to know about the command|
-|git rm --cached filename| command to remove a file from stage __before__ a commit|
+1. __Manageing__ your 'clone' army
+* Create a folder specifically for this class. Call it DCS210.
+* Within this folder create three more folders: Lectures, Labs, Homework
 
 
-### Questions:
-1. What is the difference between a tracked and untracked file?
-2. What is the importance of the -m option on teh git commit command?
+__Challenge__: create these folders from the shell environment using the CLI commands; review the basics [here](https://seankross.com/the-unix-workbench/command-line-basics.html)
+
+| Command | Notes |
+| ------- | ----- |
+|pwd| present workding directory|
+|ls| list files/directories in the current directory|
+|cd| change directory|
+|mkdir| make directory|
+| cd .. | back up one directory level|
+
+2. __'Forking' the repo__ A link to an assignment will be posted to Slack. This will happen for each new assignment. When you click
+on the assignment link an assignment reposiory is 'forked' to your repo with your username as part of the repository name. 
+Here is an image of what you should see after clicking the link:
+ 
+?? Accepting the assignment should bring you to your repo??
+
+![Put the righ picture here](../images/accept-assignment.png)
+
+3. Click __“Clone or Download”__, 
+and choose  'Clone with HTTPS' The link is now copied to your clipboard.
+
+![put the pic here](../images/clone_with_https.JPG)
 
 
-### Exercise 2: Using GitHub to create a remote repo
-To get started, sign in to your GitHub acccount with the credentials you setup earlier
+5. In your terminal (Mac OS) or gitBash shell (Windows), use  git clone repo-link (replacing repo-line with the URL in your clipboard).
+You have now cloned the assignment repo from the remote to your local directory.
 
-__Note__ that you have a *local* git repository in your DCS210 folder; why is there not a repository named my_first_repo in your GitHub account?
+6. After you make changes to the homework assignment, commit them. 
+__Note:__ commit early and often with useful commit messages. At a minimum commit each time you have completed a question. 
 
-#### Follow the instructions [Getting Started with GitHub](https://seankross.com/the-unix-workbench/git-and-github.html#github) 
+7. When you are ready for feedback, use __git push__ to push your changes up to the remote from your local directory.
 
+# Workflow employed by the instructor:
+## Feedback during assignments:
 
-#### Points to Ponder along the way
-* create repo
-	* public vs. private
-	* initialize with README
-	* add .gitignore
-* GitHub suggestions
-	* Quick setup = clone
-	* the 'remote' = 'origin'
+* Clone the student’s directory to their own computer. Or pull the latest changes if the repository has been previously cloned.
 
-__Getting Connected!__ - In terminal or gitBash, navigate to your DCS directory
+* Provide feedback through either a pull request, directly into the code, or as an issue in GitHub.
 
-	git remote
-	git remote add origin https://github.com/yourusername/my-first-repo.git 
-	git push -u origin master 
+* Push all changes back to GitHub.
 
+All feedback is then documented in the commit history, which can be a useful reference if the student wants to look back at the assignment after completion.
 
+## Grading Workflow
+* Clone all student assignment repositories to a local computer using our mass clone shell script
 
-#### Summary of basic commands used 
+* Open each student’s assignment (all assignments can be opened simultaneously with a single command on the terminal command-line), and run the code inside of RStudio to ensure reproducibility. Add comments, suggestions, or edits within each student’s .R script or .Rmd file and save the altered file.
 
-| Command         | Notes |
-| --------------- | ------ |
-|git remote|  |
-|remote add origin url | url = address of your repo in GitHub; adds a new remote named 'origin' to your __local__ repo |
-|git push -u origin master | initial setup of remote; -u sets origin as the default remote repository|
+* Use the shell script in step 1 to simultaneously add, commit, and push all edits for all student assignments. This step is done with one line of “command line” code, and students can view highlighted comments by visiting their assignment repository on GitHub and clicking on the commit (Figure 5), or by pulling the latest version of the repository.
 
-### Questions
-1. Look back at your web page for your repository on GitHub (you may need to refresh the page); do you see anything different?
-2. To what do the names origin and master refer?
+Fig. 5 Students see instructor feedback in GitHub. After an instructor has provided feedback in a student’s assignment, the instructor then commits the feedback and pushes the updated file to the student’s assignment repository. By clicking on the commit message, the student then sees the feedback given by instructors, which is highlighted in green.
+## Resources
+* [The Unix Workbench](https://seankross.com/the-unix-workbench/)
+* [GitHub Guides](https://guides.github.com/)
+* [Using GitHub for Classroom (video)](https://www.youtube.com/watch?v=_b67gwTXJkE)
 
-![This is an image](./images/createRepo.jpg)
