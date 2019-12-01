@@ -25,14 +25,20 @@ you should read first for the basics. The videos below are OS specific and very 
 
 ## Verify
 
-### Launch Anaconda Navigator 
-![](../images/anaconda.png | width = 50)
+### Launch Anaconda Navigator  
 <img src="../images/anaconda.png" width = "10%">
 	
 You should see, at a minimum, the following packages installed:
 * Sypder
 * Juypter Notebook
-Select Juypter Notebook 
+
+<img src="../images/anacondaNavigator.JPG" width = "20%">
+
+Launch Juypter Notebook 
+This is a hosted application and will open in your default browser. You will not see the folders as in the image but will be creating some of your own
+
+<img src="../images/jnb.JPG" width = "20%">
+
 
 ### Anaconda Setup
 Because this course must support both Mac OS and Windows, I've settled upon using the Anaconda shell for consistency between both operating systems.
