@@ -116,10 +116,15 @@ Note that many books still cover primarily (or only) Python 2. THey can still be
 ### References (for starters)
 * [The Python Tutorial](https://docs.python.org/3/tutorial/): This is the official tutorial from the Python website. No more authoritative source is available.
 * [Python Course](http://www.python-course.eu/python3_course.php)
+* [Whirlwind Tour Of Python](https://github.com/jakevdp/WhirlwindTourOfPython)
 
 ### References (to dive deeper)
 * [Hitchhikers Guide to Python](http://docs.python-guide.org/en/latest)
 * [Writing Idiomatic Python]
+
+### Useful Stuff
+* [Juypter Notebook Cheatsheet](https://www.cheatography.com/weidadeyue/cheat-sheets/jupyter-notebook/pdf_bw/)
+* [Anaconda Cheatsheet](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
 
 ### *** __The above syllabus is subject to change, as the semester progresses.__ ***
 _syllabus last updated: 01/10/2020_
