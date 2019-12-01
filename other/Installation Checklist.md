@@ -25,36 +25,70 @@ you should read first for the basics. The videos below are OS specific and very 
 
 ## Verify
 
-### Launch Anaconda Navigator  
+### Anaconda Navigator  
+Launch __Anaconda Navigator__ 
+* in Windows, got the the Windows start menu and seelct Anaconda Prompt under Anaconda3
+* on Mac, 
+
 <img src="../images/anaconda.png" width = "10%">
 	
 You should see, at a minimum, the following packages installed:
 * Sypder
 * Juypter Notebook
 
-<img src="../images/anacondaNavigator.JPG" width = "20%">
+<img src="../images/anacondaNavigator.JPG" width = "40%">
 
-Launch Juypter Notebook 
+Launch __Juypter Notebook__ from Anaconda Navigator 
 This is a hosted application and will open in your default browser. You will not see the folders as in the image but will be creating some of your own
 
-<img src="../images/jnb.JPG" width = "20%">
+<img src="../images/jnb.JPG" width = "50%">
 
 
-### Anaconda Setup
+### Anaconda Prompt Setup
 Because this course must support both Mac OS and Windows, I've settled upon using the Anaconda shell for consistency between both operating systems.
 The default shell in all versions of Mac OS is bash. Windows users would typically download something like Cygwin or Git Bash. But since we are 
 installing Aanaconda, the Anaconda prompt will provide a common linux environment for both sets of users.
 
-The Anaconda prompt window is both a package manager and environment manager (similar to Python's venv).
+The Anaconda prompt window is __both__ a package manager and environment manager (similar to Python's venv).
+Executing the command as shown below will set the environment to work similar to Terminal on the Mac and PowerShell on Windows.
+(PowerShell is Windows version of the Mac Terminal - they are both essentially bash shells - but this is more than you need to know at the moment!)
 
 #### Open an Anaconda Prompt
-## Creating an Environment
-* conda create --name mylinuxenv m2-base
+Execute the following command at the prompt (\path\your user name>):
+* conda install m2-base
+
+### Python Interpreter
+In the Anaconda prompt window at the prompt > type:
+
+`python version`
+
+    
+To run the python interpreter type:
+
+`python`     
+(the prompt will now look like >>>)
+
+Now type:
+
+`import this`
+	
+To exit the interpreter type:
+
+`exit()` 
+
+### Slack
+* slack me with success or issue!
+
+
+
+## Some extra notes on Anaconda Prompt 
+### Creating an Environment
+* conda create --name mylinuxenv m2-base (similar to Python's venv)
 * activate mylinuxenv
 * deactivate
 * OR conda install m2-base (gives you all the coreutils as well as bash - run conda search m2-.* to see them all)
 
-## Anaconda Prompt cheatsheet
+### Anaconda Prompt cheatsheet
 * conda info --envs : lists all environments
 * source activate <env name> : activate an environment
 * source deactivate: deactivate an environment
@@ -64,14 +98,3 @@ The Anaconda prompt window is both a package manager and environment manager (si
 * conda env export > environment.yml: export conda environment requirements list to a file
 * conda env remove -n ENV_NAME : delete environment
 
-### Python
-* Open an Anaconda prompt window:
-    * Type `conda list` 
-    * Type `python` to open the Python interpreter (the prompt should look like >>>)
-* While in the Python interpreter:
-    * Look at the Python version number. It should start with 3.7.
-    * Type `import pandas`
-    * Type `exit()` to exit the interpreter. You can now close the command line application.
-
-### Slack
-* slack me with success or issue!
