@@ -32,20 +32,29 @@ Eliz | Fridays 6-8pm at GA
 * Demonstrate an understanding of the widespread application of computational thinking to real-world problems.
  
 ## Resources
-* [Thnk Python! How to Think Like a Comuter Scientist](http://greenteapress.com/thinkpython/html/index.html)
+#### On-line
+* [Thnk Python! How to Think Like a Computer Scientist](http://greenteapress.com/thinkpython/html/index.html)
+
 * [Problem Solving with Algorithms and Data Structures](https://www.cs.auckland.ac.nz/compsci105s1c/resources/ProblemSolvingwithAlgorithmsandDataStructures.pdf)
 
-* __Textbook__
-	* [Guttag, John. Introduction to Computation and Programming Using Python: With Application to Understanding Data Second Edition. MIT Press, 2016. ISBN: 9780262529624](https://www.amazon.com/exec/obidos/ASIN/0262529629/ref=nosim/mitopencourse-20)
-	* An earlier version of this text can be found here: [2013](https://doc.lagout.org/programmation/python/Introduction%20to%20Computation%20and%20Programming%20using%20Python%20%28rev.%20ed.%29%20%5BGuttag%202013-08-09%5D.pdf)
+#### Textbook
+
+* [Guttag, John. Introduction to Computation and Programming Using Python: With Application to Understanding Data Second Edition. MIT Press, 2016. ISBN: 9780262529624](https://www.amazon.com/exec/obidos/ASIN/0262529629/ref=nosim/mitopencourse-20)
+	
+An earlier version of this text can be found here: [2013](https://doc.lagout.org/programmation/python/Introduction%20to%20Computation%20and%20Programming%20using%20Python%20%28rev.%20ed.%29%20%5BGuttag%202013-08-09%5D.pdf)
 	if you choose to use this version beware the python code is based on version 2.7 so you may have to upgrade the code to 3.7.
+
+#### Additional Resources
 * [Problem Solving with Algorithms and Data Structures](https://www.cs.auckland.ac.nz/compsci105s1c/resources/ProblemSolvingwithAlgorithmsandDataStructures.pdf)
 * [Practical Programming An Introduction to Computer Science Using Python](https://doc.lagout.org/programmation/Pragmatic%20Programmers/Practical%20Programming.pdf)
-## Setup Info
+* [Whirlwind Tour of Python](https://github.com/jakevdp/WhirlwindTourOfPython/blob/master/00-Introduction.ipynb)
 
-**[Installation and Setup Checklist](other/setup_checklist.md)**
+## Getting Started - Setting up Tools of the Trade
+Work these 3 exercises to get ready for Python! 
 
-**[Git and Github Setup](other/git_github_setup.md)**
+* [Installation and Setup Checklist](other/setup_checklist.md)
+* [Command Line Basics](other/CommandLineBasics.md)
+* [Git and Github Setup](other/git_github_setup.md)
 
 
 
@@ -116,7 +125,6 @@ Note that many books still cover primarily (or only) Python 2. THey can still be
 ### References (for starters)
 * [The Python Tutorial](https://docs.python.org/3/tutorial/): This is the official tutorial from the Python website. No more authoritative source is available.
 * [Python Course](http://www.python-course.eu/python3_course.php)
-* [Whirlwind Tour Of Python](https://github.com/jakevdp/WhirlwindTourOfPython)
 
 ### References (to dive deeper)
 * [Hitchhikers Guide to Python](http://docs.python-guide.org/en/latest)
@@ -133,10 +141,10 @@ _syllabus last updated: 01/10/2020_
 
 -----
 
-### Class 1: Tools of the Trade: Introduction to GIT, Anaconda, Juypter, CLI
+### Class 1: Tools of the Trade: Introduction to GitHub, Anaconda CLI, Jupyter
 * Course overview ([slides](slides/01_course_intro.pdf))
-* Introduction to data science ([slides](slides/01_intro_to_data_science.pdf))
-* Command line & exercise ([code](code/02_command_line.md))
+* Command line & exercise ([Command Line Basics](code/02_command_line.md))
+* GitHub & exercise([Let's Connect](Labs/LetsConnect.md))
 * Exit tickets
 
 
