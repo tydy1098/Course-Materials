@@ -60,7 +60,7 @@ In this exercise we will connect our local repo with our remote repo in our GitH
 	* should you choose 'initialize with README'?
 	* should you add .gitignore?
 
-After you have ![](../other/greenCreateRepo.JPG) you are presented with some options for connecting your 
+After you have ![](../images/greenCreateRepo.JPG) you are presented with some options for connecting your 
 local and remote repositories. 
 * Quick setup - use the https URL with git clone if you have not yet set up a local repo (more on this later)
 * ... push an existing repo - since we have already created the local repo
