@@ -9,9 +9,9 @@ Please post a message in the "setupchecklist" channel in Slack once you have wal
 
 ### Anaconda
 * Install the [Anaconda distribution](http://continuum.io/downloads) of Python 3.7x. This is a good installation guide [here](https://www.datacamp.com/community/tutorials/installing-anaconda-windows) 
-you should read first for the basics. The videos below are OS specific and very much woth watching!
+that you should read first for the basics. The videos below are OS specific and very much worth watching!
 	* For Windows, go [here](https://www.youtube.com/watch?v=dgjEUcccRwM); he has a blog post [here](https://medium.com/@GalarnykMichael/install-python-on-windows-anaconda-c63c7c3d1444) as well.
-	__NOTE__: Be sure to set you path in the command prompt
+	__NOTE__: Be sure to set your path in the command prompt
 	* For Mac, go [here](https://www.youtube.com/watch?v=YJC6ldI3hWk)
 
 ### Github
@@ -27,18 +27,18 @@ you should read first for the basics. The videos below are OS specific and very 
 
 ### Anaconda Navigator  
 Launch __Anaconda Navigator__ 
-* in Windows, got the the Windows start menu and seelct Anaconda Prompt under Anaconda3
+* in Windows, go to the the Windows start menu and select Anaconda Prompt under Anaconda3
 * on Mac, 
 
 <img src="../images/anaconda.png" width = "10%">
 	
 You should see, at a minimum, the following packages installed:
-* Sypder
-* Juypter Notebook
+* Spyder
+* Jupyter Notebook
 
 <img src="../images/anacondaNavigator.JPG" width = "40%">
 
-Launch __Juypter Notebook__ from Anaconda Navigator 
+Launch __Jupyter Notebook__ from Anaconda Navigator 
 This is a hosted application and will open in your default browser. You will not see the folders as in the image but will be creating some of your own
 
 <img src="../images/jnb.JPG" width = "80%">
@@ -65,7 +65,7 @@ This will create a conda environment that allows you to use linux commmands and 
 
 To activate the environment use:`conda activate myenv`
 
-To deactivate the enviromnet and return to the default use: `conda deactivate`
+To deactivate the environment and return to the default use: `conda deactivate`
 
 
 ### Python Interpreter
