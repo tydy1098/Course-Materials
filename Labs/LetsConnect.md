@@ -27,7 +27,7 @@ Use git to create a local repo. If you want to dive deeper you can read [Getting
 	git init
 	ls -a
 What's new in your directory? To turn a typical directory into a repository there must be a .git file in the directory. 
-Now we can take steps to __'stage'__ and __'commit'__ changes to files in our reppo. 
+Now we can take steps to __'stage'__ and __'commit'__ changes to files in our repo. 
 
 
 	git status
