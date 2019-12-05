@@ -37,9 +37,9 @@ For the most part GitHub classrooom will be invisible to you but I mention it sh
 
 **1. Get Your GitHub Account**
 * You will need to register for a github account if you don't already have one
-* We recommend using a username that incorporates our name
-* Visit https://github.com, choose a user name that isnít already taken, provide an email address and a password, 
-and click the big green ìSign up for GitHubî button. 
+* We recommend using a username that incorporates your name
+* Visit https://github.com, choose a user name that isn‚Äôt already taken, provide an email address and a password, 
+and click the big green ‚ÄúSign up for GitHub‚Äù button. 
 
 **2. Installing Git**
 * You should already have git installed from the Anaconda installation.
@@ -74,7 +74,7 @@ Each class you will be given an 'assignment link' which will automatically fork 
 repo. You will then 'clone' the repo to your local machine. You will want to keep your assignments well organized 
 so please follow the directory structure recommended in the next steps.
 
-1. __Manageing__ your 'clone' army
+1. __Managing__ your 'clone' army
 * Create a folder specifically for this class. Call it DCS210.
 * Within this folder create __three__ more folders: Lectures, Labs, Homework
 
@@ -95,9 +95,9 @@ Here is an image of what you should see after clicking the link:
  
 ?? Accepting the assignment should bring you to your repo??
 
-![Put the righ picture here](../images/accept-assignment.png)
+![Put the right picture here](../images/accept-assignment.png)
 
-3. Click __ìClone or Downloadî__, 
+3. Click __‚ÄúClone or Download‚Äù__, 
 and choose  'Clone with HTTPS' The link is now copied to your clipboard.
 
 ![put the pic here](../images/clone_with_https.JPG)
@@ -114,7 +114,7 @@ __Note:__ commit early and often with useful commit messages. At a minimum commi
 # Workflow employed by the instructor:
 ## Feedback during assignments:
 
-* Clone the studentís directory to their own computer. Or pull the latest changes if the repository has been previously cloned.
+* Clone the student‚Äôs directory to their own computer. Or pull the latest changes if the repository has been previously cloned.
 
 * Provide feedback through either a pull request, directly into the code, or as an issue in GitHub.
 
@@ -125,11 +125,11 @@ All feedback is then documented in the commit history, which can be a useful ref
 ## Grading Workflow
 * Clone all student assignment repositories to a local computer using GitHub Classroom mass clone tool
 
-* Open each studentís assignment (all assignments can be opened simultaneously with a single command on the terminal command-line), and run the code inside of RStudio to ensure reproducibility. Add comments, suggestions, or edits within each studentís .R script or .Rmd file and save the altered file.
+* Open each student‚Äôs assignment (all assignments can be opened simultaneously with a single command on the terminal command-line), and run the code inside of RStudio to ensure reproducibility. Add comments, suggestions, or edits within each student‚Äôs .R script or .Rmd file and save the altered file.
 
-* Use the shell script in step 1 to simultaneously add, commit, and push all edits for all student assignments. This step is done with one line of ìcommand lineî code, and students can view highlighted comments by visiting their assignment repository on GitHub and clicking on the commit (Figure 5), or by pulling the latest version of the repository.
+* Use the shell script in step 1 to simultaneously add, commit, and push all edits for all student assignments. This step is done with one line of ‚Äúcommand line‚Äù code, and students can view highlighted comments by visiting their assignment repository on GitHub and clicking on the commit (Figure 5), or by pulling the latest version of the repository.
 
-Fig. 5 Students see instructor feedback in GitHub. After an instructor has provided feedback in a studentís assignment, the instructor then commits the feedback and pushes the updated file to the studentís assignment repository. By clicking on the commit message, the student then sees the feedback given by instructors, which is highlighted in green.
+Fig. 5 Students see instructor feedback in GitHub. After an instructor has provided feedback in a student‚Äôs assignment, the instructor then commits the feedback and pushes the updated file to the student‚Äôs assignment repository. By clicking on the commit message, the student then sees the feedback given by instructors, which is highlighted in green.
 ## Resources
 * [The Unix Workbench](https://seankross.com/the-unix-workbench/)
 * [GitHub Guides](https://guides.github.com/)
