@@ -118,7 +118,7 @@ __Cell Phones__ must be turned off and off the desk
 
 ## Reading
 There is no assigned text book. However, you may find it beneficial to read other discussions of topics in addition to what I present in class or assign as reading: either to explore a topic more deeply, or to simple get another viewpoint. There are many good books on Python, and many more excellent discussions of individual topics on the web.
-Note that many books still cover primarily (or only) Python 2. THey can still be very, very useful, the syntax is only a little different, and the concepts the same.
+Note that many books still cover primarily (or only) Python 2. They can still be very, very useful, the syntax is only a little different, and the concepts the same.
 
 ### References (for starters)
 * [The Python Tutorial](https://docs.python.org/3/tutorial/): This is the official tutorial from the Python website. No more authoritative source is available.
