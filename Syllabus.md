@@ -51,7 +51,7 @@ An earlier version of this text can be found here: [2013](https://doc.lagout.org
 Work these 3 exercises to get ready for Python! 
 
 * [Installation and Setup Checklist](other/Installation Checklist.md)
-* [Command Line Basics](Labs/CommandLineBasics.md)
+* [Command Line Basics](Labs/CommandLineBasics.md) 
 * [Git and Github Setup](other/git_github_setup.md)
 
 
