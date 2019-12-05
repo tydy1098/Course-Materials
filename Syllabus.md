@@ -141,7 +141,7 @@ _syllabus last updated: 01/10/2020_
 
 -----
 
-### Class 1: Tools of the Trade: Introduction to GitHub, Anaconda CLI, Jupyter
+### Jan 14/Class 1: Intro & Tools of the Trade: GitHub, Anaconda CLI, Jupyter, iPython
 * Course overview ([slides](slides/01_course_intro.pdf))
 * Command line & exercise ([Command Line Basics](code/02_command_line.md))
 * GitHub & exercise([Let's Connect](Labs/LetsConnect.md))
@@ -149,21 +149,23 @@ _syllabus last updated: 01/10/2020_
 
 
 **Homework:**
-* Work through GA's friendly [command line tutorial](http://generalassembly.github.io/prework/command-line/#/) using Terminal (Linux/Mac) or Git Bash (Windows), and then browse through this [command line reference](other/02_command_line.md).
+* Work through GA's friendly [command line tutorial](http://generalassembly.github.io/prework/command-line/#/) using Terminal (Linux/Mac) or Git Bash (Windows), and then browse through this [command line reference](Labs/CommandLineBasics.md).
 * Watch videos 1 through 8 (21 minutes) of [Introduction to Git and GitHub](https://www.youtube.com/playlist?list=PL5-da3qGB5IBLMp7LtN8Nc3Efd4hJq0kD).
 * __If your laptop has any setup issues, please work with us to resolve them by Thursday.__
 
 **Resources:**
 * For a useful look at the different types of data scientists, read [Analyzing the Analyzers](http://cdn.oreillystatic.com/oreilly/radarreport/0636920029014/Analyzing_the_Analyzers.pdf) (32 pages).
-* For some thoughts on what it's like to be a data scientist, read these short posts from [Win-Vector](http://www.win-vector.com/blog/2012/09/on-being-a-data-scientist/) and [Datascope Analytics](http://datascopeanalytics.com/what-we-think/2014/07/31/six-qualities-of-a-great-data-scientist).
-* Quora has a [data science topic FAQ](https://www.quora.com/Data-Science) with lots of interesting Q&A.
+
+**Git and Markdown Resources:**
+* [Pro Git](http://git-scm.com/doc) is an excellent book for learning Git. Read [Chapter 1 - Getting Started](http://git-scm.com/book/en/v2/Getting-Started-About-Version-Control) and [Chapter 2 - Git Basics](http://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository) to gain a deeper understanding of version control and basic commands.
+* Very quick [Git tutorial](https://try.github.io) by Github and Codeschool. Recommended practice!
+* Github's [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) is a good starting point for learning github-flavored markdown.
+* [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) provides a thorough set of Markdown examples with concise explanations.
 
 -----
 
 ### Class 2: Intro to Python
 * Final project presentations from other class
-* Q&A on [course project](project/README.md) expectations & schedule
-  * [public data sources](project/public_data.md)
 * Version Control with Git and GitHub ([slides](slides/02_version_control_git.pdf))
 * [Git Configuration and Github setup](other/git_github_setup.md)
 * Moved to Class 3: Intro to Python ([slides](slides/02_intro_to_python.pdf))
@@ -184,6 +186,7 @@ _syllabus last updated: 01/10/2020_
 **Command Line Resources:**
 * If you want to go much deeper into the command line, [Data Science at the Command Line](http://shop.oreilly.com/product/0636920032823.do) is a great book. The [companion website](http://datascienceatthecommandline.com/) provides installation instructions for a "data science toolbox" (a virtual machine with many more command line tools), as well as a long reference guide to popular command line tools.
 
+* Pyhton pushups http://codingbat.com/python
 -----
 
 ### Class 3: Intro to Python

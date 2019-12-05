@@ -84,6 +84,7 @@ We added a remote named 'origin' to our local repo; the origin's address is the 
 3. To what do the names origin and master refer? (Hint: google 'what is origin in git' and look for stackoverflow!)
 3. How would you modify your local repo and submit the changes to your remote repo (aka GitHub account)
 4. If you create a remote repo without having first created a local repo, how would you connect your remote to a local repo?
+5. Bonus question: What do you think will happen if you type git push -u instructor master? Why?
  
 
 ### Summary of basic git commands used 
