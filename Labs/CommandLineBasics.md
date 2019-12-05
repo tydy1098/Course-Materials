@@ -19,7 +19,7 @@ Once you become comfortable with the basics, it can be a more powerful way to us
 * `<options>` (or "flags") modify the behavior of the command
 * `<arguments>` are the things we want the command to act on
 
-For Linux and Mac users, you can get view the **man**ual for a command by typing `man <command>`. For Windows users, you can view the help page by typing `<command> --help`.
+For Linux and Mac users, you can view the **man**ual for a command by typing `man <command>`. For Windows users, you can view the help page by typing `<command> --help`.
 
 ### Tips
 
